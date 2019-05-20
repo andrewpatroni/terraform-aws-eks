@@ -1,13 +1,13 @@
 # Variables Configuration
 
 variable "cluster-name" {
-  default     = "my-cluster"
+  default     = "Patroni-EKS-Cluster"
   type        = "string"
   description = "The name of your EKS Cluster"
 }
 
 variable "aws-region" {
-  default     = "us-west-2"
+  default     = "us-east-2"
   type        = "string"
   description = "The AWS Region to deploy EKS"
 }
